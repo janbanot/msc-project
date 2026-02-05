@@ -26,3 +26,10 @@ label_cols = ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_
 
 # To Do
 - sprawdzić czy nie lepiej będzie zmienić główny model z DistillBerta na DeBERTA-v3
+
+- Uzywamy tylko metod gradientowych (Captum), czy potrzebujemy tez dodać SHAP albo LIME?
+- Sprawdzić jak mozna lepiej uzyć Captum do wizualizacji przykładów (np. zaznaczanie kolorem w tekście)
+- Metryki quantus - czy nie lepiej uzyc wbudowanych do quantusa metryk (np. Sparsity, Continuity), a nie tylko ręcznie zaimplementowane Comprehensivness
+- Moduł C - sprawdzić kod na parafrazach, które będą zmieniały tylko nieistotne słowa (synonimy?)
+- Moduł C - warto zapisywać do pliku .json lub .csv konkretne pary: Tekst oryginalny -> Wyjaśnienie A | Parafraza -> Wyjaśnienie B. Będą to idealne przykłady ("Case Studies") do zamieszczenia w treści pracy.
+- Uwzględnić w pracy wybór warstwy 5, wykresy!!
